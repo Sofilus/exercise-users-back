@@ -1,1 +1,1 @@
-[{"incomingEmail":{"name":"greg","email":"gregr"}},{"incomingEmail":{"name":"grgr","email":"eeee"}},{"name":"hej","email":"hej"}]
+[{"email":"sdf"},{"email":"sofia00olsson@gmail.com"},"gustav.wadstrm@gmail.com","gustav.wadstrm@gmail.com","U2FsdGVkX1+33TvWrggnpUNI+xL9H8ABLdlhXxnshtanierP83JsP6U2D3qlHqQW"]

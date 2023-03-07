@@ -13,8 +13,11 @@ router.post('/', function(req, res) {
     const emails = JSON.parse(data)
 
     let incomingEmail = req.body;
+    let email = req.body.email
 
-    emails.push(incomingEmail);
+    let cryptoEmail = cryptoJS.AES.encrypt(email, "Salt nyckel").toString();
+
+    emails.push(cryptoEmail);
 
 
     fs.writeFile("mails.txt", JSON.stringify(emails), function(err){
